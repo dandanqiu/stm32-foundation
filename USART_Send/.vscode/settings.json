@@ -1,0 +1,9 @@
+{
+  "C_Cpp.errorSquiggles": "enabled",
+  "files.associations": {
+    "*.h": "c"
+  },
+  "files.autoGuessEncoding": true,
+  "C_Cpp.intelliSenseEngine": "default",
+  "git.path": "D:/c语言/Git/cmd/git.exe"
+}

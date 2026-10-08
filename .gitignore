@@ -1,0 +1,37 @@
+# Keil build output and local user state
+Objects/
+Listings/
+*.uvguix.*
+*.o
+*.obj
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.lst
+*.crf
+*.d
+*.dep
+*.htm
+*.bak
+
+# Installed packs, build caches, and generated logs
+.pack/
+build/
+.cache/
+__pycache__/
+*.pyc
+*.log
+*.lock
+
+# Font conversion tools and local font/archive packages
+ttfttc/
+*.ttf
+*.TTF
+*.ttc
+*.exe
+*.dll
+*.pdb
+*.rar
+*.zip

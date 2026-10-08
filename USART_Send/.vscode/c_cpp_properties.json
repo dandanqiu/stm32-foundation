@@ -1,0 +1,36 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "compilerPath": "D:/KEIL-STM32/Core/ARM/ARMCLANG/bin/armclang.exe",
+      "defines": [
+        "STM32F10X_MD",
+        "USE_STDPERIPH_DRIVER"
+      ],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true,
+        "path": [
+          "${workspaceFolder}/std_periph_driver",
+          "${workspaceFolder}/user",
+          "${workspaceFolder}/my_lib"
+        ]
+      },
+      "cStandard": "c99",
+      "name": "STM32F103C8 - Keil project",
+      "cppStandard": "c++11",
+      "intelliSenseMode": "windows-clang-arm",
+      "includePath": [
+        "${workspaceFolder}/std_periph_driver/inc",
+        "${workspaceFolder}/user",
+        "${workspaceFolder}/my_lib",
+        "${workspaceFolder}/my_lib/font",
+        "D:/KEIL-STM32/Park/ARM/CMSIS/5.9.0/CMSIS/Core/Include"
+      ],
+      "compilerArgs": [
+        "--target=arm-arm-none-eabi",
+        "-mcpu=cortex-m3",
+        "-mthumb"
+      ]
+    }
+  ]
+}

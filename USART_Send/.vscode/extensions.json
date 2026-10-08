@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "ms-vscode.cpptools",
+    "openai.chatgpt",
+    "eamodio.gitlens",
+    "dan-c-underwood.arm"
+  ]
+}
